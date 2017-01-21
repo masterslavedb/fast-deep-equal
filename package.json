@@ -1,0 +1,20 @@
+{
+  "name": "fast-deep-equal",
+  "version": "1.0.0",
+  "description": "strict deep equality of plain objects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/masterslavedb/fast-deep-equal.git"
+  },
+  "keywords": [
+    "deep",
+    "equality",
+    "equal",
+    "compare"
+  ],
+  "author": {
+    "name": "D B"
+  },
+  "license": "MIT"
+}
