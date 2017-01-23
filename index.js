@@ -40,8 +40,8 @@ function deepEqual(item1, item2) {
     }
     i = l;
     while (i--) {
-      const item1val = item1[keys1[i]];
-      const item2val = item2[keys1[i]];
+      var item1val = item1[keys1[i]];
+      var item2val = item2[keys1[i]];
       if (item1val !== item2val && !deepEqual(item1val, item2val)) {
         return false;
       }
